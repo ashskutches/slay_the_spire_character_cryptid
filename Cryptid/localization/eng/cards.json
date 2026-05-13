@@ -1,18 +1,18 @@
 {
   "CRYPTID-PROBE.title": "Probe",
-  "CRYPTID-PROBE.description": "Gain {ParanormalPower:diff()} [gold]Paranormal[/gold].",
+  "CRYPTID-PROBE.description": "Gain {ParanormalPower:diff()} [gold]Paranormal[/gold]. Upgraded: also draw 1 card.",
 
-  "CRYPTID-STATIC_BLAST.title": "Static Blast",
-  "CRYPTID-STATIC_BLAST.description": "Deal {Damage:diff()} damage. If the enemy is [gold]Abducted[/gold], deal 3 additional damage.",
+  "CRYPTID-JUDGEMENT.title": "Judgement",
+  "CRYPTID-JUDGEMENT.description": "Deal {Damage:diff()} damage. If the enemy has [gold]Madness[/gold], deal 2(5) additional damage.",
+
+  "CRYPTID-HIS_PRESENCE.title": "His Presence",
+  "CRYPTID-HIS_PRESENCE.description": "Deal {Damage:diff()} damage. Apply [gold]Madness[/gold] to that enemy. Upgraded: Apply [gold]Madness[/gold] to ALL enemies instead.",
 
   "CRYPTID-STRANGE_SIGHTING.title": "Strange Sighting",
-  "CRYPTID-STRANGE_SIGHTING.description": "Draw 1 card. Gain 3 [gold]Paranormal[/gold].",
+  "CRYPTID-STRANGE_SIGHTING.description": "Consume 5 [gold]Paranormal[/gold]. Gain a random [gold]Entity[/gold] Orb and 5 Block.",
 
   "CRYPTID-HIDE_EVIDENCE.title": "Hide Evidence",
   "CRYPTID-HIDE_EVIDENCE.description": "Gain {Block:diff()} Block. Exhaust a card from your hand.",
-
-  "CRYPTID-ABDUCTION_BEAM.title": "Abduction Beam",
-  "CRYPTID-ABDUCTION_BEAM.description": "Apply [gold]Abducted[/gold] to an enemy. Channel a [gold]Gray Alien[/gold] Entity. Upgraded: also apply 1 [gold]Weak[/gold].",
 
   "CRYPTID-MEN_IN_BLACK.title": "Men in Black",
   "CRYPTID-MEN_IN_BLACK.description": "Remove all debuffs from yourself. Gain 1 [gold]Paranormal[/gold] per debuff removed. Upgraded: also draw 1 card.",
@@ -30,16 +30,16 @@
   "CRYPTID-RADIO_STATIC.description": "Whenever you gain [gold]Paranormal[/gold] from a card, deal {RadioStaticPower:diff()} damage to a random enemy.",
 
   "CRYPTID-CONSPIRACY_BOARD.title": "Conspiracy Board",
-  "CRYPTID-CONSPIRACY_BOARD.description": "Every 3 Skills played in a turn, Channel 1 random Entity.",
+  "CRYPTID-CONSPIRACY_BOARD.description": "Every 3 Skills played in a turn, Channel 1 random Entity. Upgraded: also gain 1 [gold]Paranormal[/gold] per trigger.",
 
   "CRYPTID-PARANORMAL_REACTOR.title": "Paranormal Reactor",
-  "CRYPTID-PARANORMAL_REACTOR.description": "At the start of your turn: if you have 6+ [gold]Paranormal[/gold], spend 3 and gain 1 [gold]Energy[/gold].",
+  "CRYPTID-PARANORMAL_REACTOR.description": "At the start of your turn: if you have 6+ [gold]Paranormal[/gold], spend 3 and gain 1 Energy. Upgraded: also draw 1 card.",
 
   "CRYPTID-CATTLE_MUTILATION.title": "Cattle Mutilation",
   "CRYPTID-CATTLE_MUTILATION.description": "Deal {Damage:diff()} damage. If the enemy is [gold]Abducted[/gold], deal that much damage again.",
 
   "CRYPTID-BIGFOOT.title": "Bigfoot",
-  "CRYPTID-BIGFOOT.description": "At the end of each turn, deal damage to a random enemy equal to your [gold]Paranormal[/gold].",
+  "CRYPTID-BIGFOOT.description": "At the end of each turn, deal damage to a random enemy equal to your [gold]Paranormal[/gold]. Upgraded: costs 0.",
 
   "CRYPTID-MOTHMAN.title": "Mothman",
   "CRYPTID-MOTHMAN.description": "Whenever an enemy gains [gold]Madness[/gold], deal {MothmanPower:diff()} damage to ALL enemies.",
@@ -69,13 +69,13 @@
   "CRYPTID-SECRET_MEETING.description": "If you have a [gold]Gray Alien[/gold], [gold]Eldritch[/gold], and [gold]Cryptid[/gold] Entity channeled: Gain 3 Energy and draw 3 cards. Exhaust. Upgraded: Retain instead of Exhaust.",
 
   "CRYPTID-GLITCH_IN_THE_SKY.title": "Glitch in the Sky",
-  "CRYPTID-GLITCH_IN_THE_SKY.description": "Whenever you Evoke an Entity, gain 1 [gold]Energy[/gold] at the start of your next turn.",
+  "CRYPTID-GLITCH_IN_THE_SKY.description": "Whenever you Evoke an Entity, gain 1 [gold]Energy[/gold] at the start of your next turn. Upgraded: also draw 1 card.",
 
   "CRYPTID-HIVE_MIND.title": "Hive Mind",
   "CRYPTID-HIVE_MIND.description": "All [gold]Paranormal[/gold] gains are increased by +1(+2).",
 
   "CRYPTID-INTERDIMENSIONAL_TREATY.title": "Interdimensional Treaty",
-  "CRYPTID-INTERDIMENSIONAL_TREATY.description": "Whenever you gain [gold]Paranormal[/gold], also gain that much Block.",
+  "CRYPTID-INTERDIMENSIONAL_TREATY.description": "Whenever you gain [gold]Paranormal[/gold], also gain that much Block. Upgraded: also gain 1 additional Block per trigger.",
 
   "CRYPTID-CROP_CIRCLE_PATTERN.title": "Crop Circle Pattern",
   "CRYPTID-CROP_CIRCLE_PATTERN.description": "Channel 1(2) random Entity. Draw 1 card.",
@@ -108,7 +108,7 @@
   "CRYPTID-ELDRITCH_TRANSFORMATION.description": "Whenever you apply [gold]Madness[/gold] to an enemy, gain 1 Temp Dexterity. Upgraded: also gain 1 Temp Strength and costs 0.",
 
   "CRYPTID-ANCIENT_TABLET.title": "Ancient Tablet",
-  "CRYPTID-ANCIENT_TABLET.description": "Your next Evoke triggers twice.",
+  "CRYPTID-ANCIENT_TABLET.description": "Your next Evoke triggers twice. Upgraded: costs 0.",
 
   "CRYPTID-WHISPERS.title": "Whispers",
   "CRYPTID-WHISPERS.description": "When you Evoke an Entity, lose 1 HP.",

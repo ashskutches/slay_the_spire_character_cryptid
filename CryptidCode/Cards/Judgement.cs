@@ -8,15 +8,16 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Cryptid.CryptidCode.Cards;
 
-public sealed class StaticBlast : CryptidCard
+// Deal 5 damage. If the enemy has Madness, deal 2(5) additional damage.
+public sealed class Judgement : CryptidCard
 {
-    public StaticBlast() : base(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy) { }
+    public Judgement() : base(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy) { }
 
-    protected override HashSet<CardTag> CanonicalTags => [CardTag.Strike];
+    private int _bonusDamage = 2;
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new DamageVar(6m, ValueProp.Move),
+        new DamageVar(5m, ValueProp.Move),
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext ctx, CardPlay play)
@@ -27,12 +28,12 @@ public sealed class StaticBlast : CryptidCard
             .WithHitFx("vfx/vfx_attack_blunt", null, "blunt_attack.mp3")
             .Execute(ctx);
 
-        if (play.Target.GetPower<AbductedPower>() != null)
-            await DamageCmd.Attack(3m)
+        if (play.Target.GetPower<MadnessPower>() != null)
+            await DamageCmd.Attack(_bonusDamage)
                 .FromCard(this).Targeting(play.Target)
                 .WithHitFx("vfx/vfx_attack_blunt", null, "blunt_attack.mp3")
                 .Execute(ctx);
     }
 
-    protected override void OnUpgrade() => DynamicVars.Damage.UpgradeValueBy(3m);
+    protected override void OnUpgrade() => _bonusDamage = 5;
 }

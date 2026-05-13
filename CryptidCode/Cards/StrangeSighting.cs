@@ -7,6 +7,7 @@ using MegaCrit.Sts2.Core.Models;
 
 namespace Cryptid.CryptidCode.Cards;
 
+// Consume 5 Paranormal. Gain a random Entity orb and 5 Block.
 public sealed class StrangeSighting : CryptidCard
 {
     public StrangeSighting() : base(1, CardType.Skill, CardRarity.Basic, TargetType.Self) { }
@@ -16,8 +17,18 @@ public sealed class StrangeSighting : CryptidCard
     protected override async Task OnPlay(PlayerChoiceContext ctx, CardPlay play)
     {
         await CreatureCmd.TriggerAnim(Owner.Creature, "Cast", Owner.Character.CastAnimDelay);
-        await CardPileCmd.Draw(ctx, Owner);
-        await PowerCmd.Apply<ParanormalPower>(Owner.Creature, 3, Owner.Creature, this);
+
+        var paranormal = Owner.Creature.GetPower<ParanormalPower>();
+        if (paranormal != null)
+        {
+            int remaining = paranormal.Amount - 5;
+            await PowerCmd.Remove(paranormal);
+            if (remaining > 0)
+                await PowerCmd.Apply<ParanormalPower>(Owner.Creature, remaining, Owner.Creature, this);
+        }
+
+        Owner.Creature.GainBlockInternal(5);
+        await ChannelRandomEntity(ctx, Owner);
     }
 
     protected override void OnUpgrade() { }

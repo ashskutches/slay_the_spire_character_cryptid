@@ -31,5 +31,9 @@ public sealed class EldritchRitual : CryptidCard
             await CardPileCmd.Draw(ctx, Owner);
     }
 
-    protected override void OnUpgrade() => _draw = true;
+    protected override void OnUpgrade()
+    {
+        DynamicVars["MadnessPower"].UpgradeValueBy(2m);
+        _draw = true;
+    }
 }

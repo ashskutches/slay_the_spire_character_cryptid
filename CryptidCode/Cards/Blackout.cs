@@ -29,5 +29,9 @@ public sealed class Blackout : CryptidCard
         await PowerCmd.Apply<ParanormalPower>(Owner.Creature, DynamicVars["ParanormalPower"].IntValue, Owner.Creature, this);
     }
 
-    protected override void OnUpgrade() => DynamicVars["ParanormalPower"].UpgradeValueBy(1m);
+    protected override void OnUpgrade()
+    {
+        DynamicVars["WeakPower"].UpgradeValueBy(1m);
+        DynamicVars["ParanormalPower"].UpgradeValueBy(1m);
+    }
 }

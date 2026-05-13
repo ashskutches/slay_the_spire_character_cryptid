@@ -30,12 +30,12 @@ public class CryptidCharacter : PlaceholderCharacterModel
         ModelDb.Card<Probe>(),
         ModelDb.Card<Probe>(),
         ModelDb.Card<Probe>(),
-        ModelDb.Card<Probe>(),
-        ModelDb.Card<StaticBlast>(),
-        ModelDb.Card<StaticBlast>(),
+        ModelDb.Card<Judgement>(),
+        ModelDb.Card<Judgement>(),
+        ModelDb.Card<Judgement>(),
+        ModelDb.Card<Judgement>(),
         ModelDb.Card<StrangeSighting>(),
-        ModelDb.Card<HideEvidence>(),
-        ModelDb.Card<AbductionBeam>(),
+        ModelDb.Card<HisPresence>(),
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
