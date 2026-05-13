@@ -1,0 +1,11 @@
+{
+  "id": "Cryptid",
+  "name": "The Cryptid",
+  "author": "Player",
+  "description": "A paranormal investigator who harnesses alien energy and cryptid power.",
+  "version": "v0.1.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": ["BaseLib"],
+  "affects_gameplay": true
+}

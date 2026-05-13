@@ -1,0 +1,10 @@
+# Godot cache
+.godot/
+
+# Build artifacts
+*.dll
+*.pck
+
+# .NET
+obj/
+bin/

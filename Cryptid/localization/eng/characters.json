@@ -1,0 +1,16 @@
+{
+  "CRYPTID-CRYPTID_CHARACTER.aromaPrinciple": "Paranormal",
+  "CRYPTID-CRYPTID_CHARACTER.banter.alive.endTurnPing": "Something is watching us.",
+  "CRYPTID-CRYPTID_CHARACTER.banter.dead.endTurnPing": "They found me...",
+  "CRYPTID-CRYPTID_CHARACTER.cardsModifierDescription": "Cryptid cards will now appear in rewards and shops.",
+  "CRYPTID-CRYPTID_CHARACTER.cardsModifierTitle": "Cryptid Cards",
+  "CRYPTID-CRYPTID_CHARACTER.description": "A paranormal investigator who harnesses alien energy and the power of cryptids.",
+  "CRYPTID-CRYPTID_CHARACTER.eventDeathPrevention": "Not before I expose the truth!",
+  "CRYPTID-CRYPTID_CHARACTER.goldMonologue": "Evidence doesn't fund itself.",
+  "CRYPTID-CRYPTID_CHARACTER.possessiveAdjective": "their",
+  "CRYPTID-CRYPTID_CHARACTER.pronounObject": "them",
+  "CRYPTID-CRYPTID_CHARACTER.pronounPossessive": "theirs",
+  "CRYPTID-CRYPTID_CHARACTER.pronounSubject": "They",
+  "CRYPTID-CRYPTID_CHARACTER.title": "The Investigator",
+  "CRYPTID-CRYPTID_CHARACTER.titleObject": "The Investigator"
+}
