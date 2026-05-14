@@ -32,6 +32,7 @@ public class MadnessPower : CryptidPower
     public override async Task AfterTurnEnd(PlayerChoiceContext ctx, CombatSide side)
     {
         if (side != CombatSide.Player) return;
+        if (!Owner.IsAlive) return;
         Flash();
         await PowerCmd.Decrement(this);
     }

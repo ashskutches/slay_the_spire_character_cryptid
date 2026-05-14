@@ -27,7 +27,7 @@ public class CryptidOrb : CryptidOrbModel
     {
         var state = CombatState;
         if (state == null) return;
-        foreach (var enemy in state.Enemies.ToList())
+        foreach (var enemy in state.Enemies.Where(e => e.IsAlive).ToList())
             await PowerCmd.Apply<MadnessPower>(enemy, 1, Owner.Creature, null);
     }
 
@@ -35,7 +35,7 @@ public class CryptidOrb : CryptidOrbModel
     {
         var state = CombatState;
         if (state == null) return [];
-        foreach (var enemy in state.Enemies.ToList())
+        foreach (var enemy in state.Enemies.Where(e => e.IsAlive).ToList())
             await PowerCmd.Apply<MadnessPower>(enemy, 5, Owner.Creature, null);
         return [];
     }

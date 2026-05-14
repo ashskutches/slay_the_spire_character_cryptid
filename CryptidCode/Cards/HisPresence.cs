@@ -32,13 +32,12 @@ public sealed class HisPresence : CryptidCard
 
         if (_upgraded)
         {
-            foreach (var enemy in state.Enemies.ToList())
+            foreach (var enemy in state.Enemies.Where(e => e.IsAlive).ToList())
                 await PowerCmd.Apply<MadnessPower>(enemy, 5, Owner.Creature, this);
         }
         else
         {
-            // Only apply if the target survived the attack
-            if (state.Enemies.Contains(play.Target))
+            if (play.Target.IsAlive)
                 await PowerCmd.Apply<MadnessPower>(play.Target, 5, Owner.Creature, this);
         }
     }
