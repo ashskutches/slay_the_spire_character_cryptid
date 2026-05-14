@@ -3,71 +3,7 @@
   "CRYPTID-PARANORMAL_POWER.description": "At the end of your turn, gain Block equal to your stacks, then lose half of them (rounded down).",
   "CRYPTID-PARANORMAL_POWER.smartDescription": "At the end of your turn, gain Block equal to your stacks, then lose half of them (rounded down).",
 
-  "CRYPTID-ABDUCTED_POWER.title": "Abducted",
-  "CRYPTID-ABDUCTED_POWER.description": "This enemy has been abducted. Cryptid cards trigger bonus effects.",
-  "CRYPTID-ABDUCTED_POWER.smartDescription": "This enemy has been abducted.",
-
   "CRYPTID-MADNESS_POWER.title": "Madness",
   "CRYPTID-MADNESS_POWER.description": "Deal 25% less damage and gain 25% less Block. Decrements at the end of the player's turn.",
-  "CRYPTID-MADNESS_POWER.smartDescription": "Deal 25% less damage and gain 25% less Block.",
-
-  "CRYPTID-RADIO_STATIC_POWER.title": "Radio Static",
-  "CRYPTID-RADIO_STATIC_POWER.description": "Whenever you gain Paranormal from a card play, deal {Amount} damage to a random enemy.",
-  "CRYPTID-RADIO_STATIC_POWER.smartDescription": "Whenever you gain Paranormal from a card play, deal {Amount} damage to a random enemy.",
-
-  "CRYPTID-CONSPIRACY_BOARD_POWER.title": "Conspiracy Board",
-  "CRYPTID-CONSPIRACY_BOARD_POWER.description": "Every 3 Skills played in a turn, Channel 1 random Entity. (Upgraded: also gain 1 Paranormal.)",
-  "CRYPTID-CONSPIRACY_BOARD_POWER.smartDescription": "Every 3 Skills played, Channel 1 Entity.",
-
-  "CRYPTID-HIVE_MIND_POWER.title": "Hive Mind",
-  "CRYPTID-HIVE_MIND_POWER.description": "All Paranormal gains are increased by +{Amount}.",
-  "CRYPTID-HIVE_MIND_POWER.smartDescription": "All Paranormal gains are increased by +{Amount}.",
-
-  "CRYPTID-INTERDIMENSIONAL_TREATY_POWER.title": "Interdimensional Treaty",
-  "CRYPTID-INTERDIMENSIONAL_TREATY_POWER.description": "Whenever you gain Paranormal, also gain that much Block.",
-  "CRYPTID-INTERDIMENSIONAL_TREATY_POWER.smartDescription": "Whenever you gain Paranormal, gain that much Block.",
-
-  "CRYPTID-MOTHERSHIP_POWER.title": "Mothership",
-  "CRYPTID-MOTHERSHIP_POWER.description": "At end of each turn: Channel 1 Entity (2 if upgraded). If any enemies are Abducted, deal 5 damage to ALL of them.",
-  "CRYPTID-MOTHERSHIP_POWER.smartDescription": "End of turn: Channel Entity, deal 5 to all Abducted enemies.",
-
-  "CRYPTID-OBSERVATION_DRONE_POWER.title": "Observation Drone",
-  "CRYPTID-OBSERVATION_DRONE_POWER.description": "At the end of your turn, Channel 1 random Entity. (Upgraded: also gain 1 Paranormal.)",
-  "CRYPTID-OBSERVATION_DRONE_POWER.smartDescription": "End of turn: Channel 1 Entity.",
-
-  "CRYPTID-GLITCH_IN_THE_SKY_POWER.title": "Glitch in the Sky",
-  "CRYPTID-GLITCH_IN_THE_SKY_POWER.description": "Whenever you Evoke an Entity, gain 1 Energy at the start of your next turn. (Upgraded: also draw 1 card.)",
-  "CRYPTID-GLITCH_IN_THE_SKY_POWER.smartDescription": "On Evoke: gain 1 Energy next turn.",
-
-  "CRYPTID-PARANORMAL_REACTOR_POWER.title": "Paranormal Reactor",
-  "CRYPTID-PARANORMAL_REACTOR_POWER.description": "At the start of your turn: if you have 6+ Paranormal, spend 3 and gain 1 Energy. (Upgraded: also draw 1 card.)",
-  "CRYPTID-PARANORMAL_REACTOR_POWER.smartDescription": "Start of turn: spend 3 Paranormal (if 6+) → 1 Energy.",
-
-  "CRYPTID-BIGFOOT_POWER.title": "Bigfoot",
-  "CRYPTID-BIGFOOT_POWER.description": "At the end of your turn, deal damage to a random enemy equal to your Paranormal.",
-  "CRYPTID-BIGFOOT_POWER.smartDescription": "End of turn: deal Paranormal damage to a random enemy.",
-
-  "CRYPTID-MOTHMAN_POWER.title": "Mothman",
-  "CRYPTID-MOTHMAN_POWER.description": "Whenever an enemy gains Madness, deal {Amount} damage to ALL enemies.",
-  "CRYPTID-MOTHMAN_POWER.smartDescription": "On enemy Madness gain: deal {Amount} to all enemies.",
-
-  "CRYPTID-TEMP_DEXTERITY_POWER.title": "Temp Dexterity",
-  "CRYPTID-TEMP_DEXTERITY_POWER.description": "Gain {Amount} bonus Block this turn. Expires at end of turn.",
-  "CRYPTID-TEMP_DEXTERITY_POWER.smartDescription": "+{Amount} Block this turn.",
-
-  "CRYPTID-TEMP_STRENGTH_POWER.title": "Temp Strength",
-  "CRYPTID-TEMP_STRENGTH_POWER.description": "Deal {Amount} bonus damage this turn. Expires at end of turn.",
-  "CRYPTID-TEMP_STRENGTH_POWER.smartDescription": "+{Amount} damage this turn.",
-
-  "CRYPTID-BLACK_EYED_CHILDREN_POWER.title": "Black-Eyed Children",
-  "CRYPTID-BLACK_EYED_CHILDREN_POWER.description": "Whenever you Evoke an Entity, gain {Amount} Paranormal.",
-  "CRYPTID-BLACK_EYED_CHILDREN_POWER.smartDescription": "On Evoke: gain {Amount} Paranormal.",
-
-  "CRYPTID-ELDRITCH_TRANSFORMATION_POWER.title": "Eldritch Transformation",
-  "CRYPTID-ELDRITCH_TRANSFORMATION_POWER.description": "Whenever you apply Madness to an enemy, gain 1 Temp Dexterity (and 1 Temp Strength if upgraded).",
-  "CRYPTID-ELDRITCH_TRANSFORMATION_POWER.smartDescription": "On Madness apply: gain 1 Temp Dexterity.",
-
-  "CRYPTID-ANCIENT_TABLET_POWER.title": "Ancient Tablet",
-  "CRYPTID-ANCIENT_TABLET_POWER.description": "Your next Evoke triggers twice. Consumed on use.",
-  "CRYPTID-ANCIENT_TABLET_POWER.smartDescription": "Next Evoke triggers twice."
+  "CRYPTID-MADNESS_POWER.smartDescription": "Deal 25% less damage and gain 25% less Block."
 }
