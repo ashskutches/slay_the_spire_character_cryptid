@@ -1,4 +1,3 @@
-using Cryptid.CryptidCode.Powers;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
@@ -7,32 +6,21 @@ using MegaCrit.Sts2.Core.Models;
 
 namespace Cryptid.CryptidCode.Cards;
 
-// Consume 5 Paranormal. Gain a random Entity orb and 5 Block.
 public sealed class StrangeSighting : CryptidCard
 {
     public StrangeSighting() : base(1, CardType.Skill, CardRarity.Basic, TargetType.Self) { }
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [];
+    private int _orbCount = 1;
 
-    protected override bool IsPlayable =>
-        (Owner?.Creature?.GetPower<ParanormalPower>()?.Amount ?? 0) >= 5;
+    protected override IEnumerable<DynamicVar> CanonicalVars => [];
 
     protected override async Task OnPlay(PlayerChoiceContext ctx, CardPlay play)
     {
         await CreatureCmd.TriggerAnim(Owner.Creature, "Cast", Owner.Character.CastAnimDelay);
-
-        var paranormal = Owner.Creature.GetPower<ParanormalPower>();
-        if (paranormal != null)
-        {
-            int remaining = paranormal.Amount - 5;
-            await PowerCmd.Remove(paranormal);
-            if (remaining > 0)
-                await PowerCmd.Apply<ParanormalPower>(Owner.Creature, remaining, Owner.Creature, this);
-        }
-
-        Owner.Creature.GainBlockInternal(5);
-        await ChannelRandomEntity(ctx, Owner);
+        await CardPileCmd.Draw(ctx, Owner);
+        for (int i = 0; i < _orbCount; i++)
+            await ChannelRandomEntity(ctx, Owner);
     }
 
-    protected override void OnUpgrade() { }
+    protected override void OnUpgrade() => _orbCount = 2;
 }

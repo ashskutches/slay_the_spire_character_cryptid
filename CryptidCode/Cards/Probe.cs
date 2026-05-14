@@ -16,7 +16,7 @@ public sealed class Probe : CryptidCard
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new PowerVar<ParanormalPower>(2m),
+        new PowerVar<ParanormalPower>(3m),
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext ctx, CardPlay play)

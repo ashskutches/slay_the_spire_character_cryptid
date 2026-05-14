@@ -8,7 +8,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Cryptid.CryptidCode.Cards;
 
-// Deal 10(15) damage. Apply Madness to target. Upgrade: apply Madness to ALL enemies.
+// Deal 10(15) damage. Apply 5 Madness to target. Upgrade: apply 5 Madness to ALL enemies instead.
 public sealed class HisPresence : CryptidCard
 {
     public HisPresence() : base(2, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy) { }
@@ -33,11 +33,11 @@ public sealed class HisPresence : CryptidCard
             var state = ActiveCombatState;
             if (state != null)
                 foreach (var enemy in state.Enemies.ToList())
-                    await PowerCmd.Apply<MadnessPower>(enemy, 1, Owner.Creature, this);
+                    await PowerCmd.Apply<MadnessPower>(enemy, 5, Owner.Creature, this);
         }
         else
         {
-            await PowerCmd.Apply<MadnessPower>(play.Target, 1, Owner.Creature, this);
+            await PowerCmd.Apply<MadnessPower>(play.Target, 5, Owner.Creature, this);
         }
     }
 

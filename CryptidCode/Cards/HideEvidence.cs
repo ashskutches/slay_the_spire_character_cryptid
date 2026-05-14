@@ -9,7 +9,7 @@ namespace Cryptid.CryptidCode.Cards;
 
 public sealed class HideEvidence : CryptidCard
 {
-    public HideEvidence() : base(1, CardType.Skill, CardRarity.Basic, TargetType.Self) { }
+    public HideEvidence() : base(1, CardType.Skill, CardRarity.Common, TargetType.Self) { }
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [

@@ -1,0 +1,270 @@
+=========================================
+THE CRYPTID — CARD REFERENCE v1.3
+=========================================
+
+CORE SYSTEM
+-----------
+
+PARANORMAL (Resource — Counter buff on player)
+  At end of turn: gain Block equal to your FULL Paranormal stacks,
+  then lose half of them (rounded down).
+  Example: 6 Paranormal → gain 6 Block, left with 3.
+
+ABDUCTED (Debuff — applied to enemies)
+  Marks an enemy. Many cards trigger bonus effects on Abducted targets.
+  Gray Alien orb evoke applies Abducted to ALL enemies.
+
+MADNESS (Debuff — applied to enemies)
+  Enemy deals 25% less damage AND gains 25% less Block.
+  Combined Weak + Frail on a single power.
+  Decrements at the end of the player's turn.
+  Eldritch orb passive applies 1 Madness to a random enemy each turn.
+
+ENTITY ORBS (3 types, slot into orb slots)
+
+  GRAY ALIEN ORB
+    Passive: Deal 3 damage to a random enemy.
+    Evoke: Apply Abducted to ALL enemies. Deal damage to all enemies
+           equal to the number of Gray Alien orbs channeled.
+
+  ELDRITCH ORB
+    Passive: Apply 1 Madness to a random enemy.
+    Evoke: Consume ALL Madness from ALL enemies. Draw 1 card per Madness removed.
+
+  CRYPTID ORB
+    Passive: Gain 1 Paranormal.
+    Evoke: Gain 1 Energy.
+
+=========================================
+STARTING DECK (10 cards)
+=========================================
+
+PROBE × 4
+  0 Cost — Skill — Basic
+  Gain 2 Paranormal.
+  Upgrade: Gain 2 Paranormal and Draw a card.
+
+Judgement × 4
+  1 Cost — Attack — Basic
+  Deal 5 damage. Deal an additional 2 Damage (second Attack) if the enemy has Madness.
+  Upgrade: Deal 3 additional Damage (Second Attack).
+
+STRANGE SIGHTING × 1
+  1 Cost — Skill — Basic
+  Consume 5 Paranormal. Gain a Random Orb (Eldritch, Cryptid, Gray Alien) and 5 Block.
+
+His Presence × 1
+  2 Cost — Attack — Basic
+  Deal 10 damage. Apply Madness to that enemy.
+  Upgrade: Deal 15 Damage and Apply Madness to all enemies.
+
+
+
+=========================================
+ATTACKS
+=========================================
+
+FLASHLIGHT SWEEP
+  1 Cost — Attack — Common
+  Deal 7 damage. If the enemy is Abducted, gain 1 Paranormal.
+  Upgrade: +3 damage (10 total).
+
+CATTLE MUTILATION
+  2 Cost — Attack — Common
+  Deal 10 damage. If the enemy is Abducted, deal that much damage again.
+  Upgrade: +4 damage (14 total).
+
+CHUPACABRA
+  2 Cost — Attack — Rare
+  Spend ALL Paranormal. Deal 8 + 4 damage per Paranormal spent.
+  Heal 1 HP per 2 Paranormal spent.
+  Upgrade: +2 damage per Paranormal (6 total per Paranormal).
+
+ALIEN INVASION
+  2 Cost — Attack — Rare — Exhaust
+  Spend ALL Paranormal. Deal 4 damage to ALL enemies per 2 Paranormal spent.
+  Exhaust.
+  Upgrade: +2 damage per 2 Paranormal.
+
+=========================================
+SKILLS
+=========================================
+
+HIDE EVIDENCE × 1
+  1 Cost — Skill — Basic
+  Gain 6 Block. Exhaust a card from your hand.
+  Upgrade: +3 Block (9 total).
+
+MEN IN BLACK
+  1 Cost — Skill — Common
+  Remove all debuffs from yourself. Gain 1 Paranormal per debuff removed.
+  Upgrade: Also draw 1 card.
+
+BLACKOUT
+  1 Cost — Skill — Common — All Enemies
+  Apply 2 Weak to ALL enemies. Gain 1 Paranormal.
+  Upgrade: +1 Weak (3 total), +1 Paranormal (2 total).
+
+MISSING TIME
+  1 Cost — Skill — Common
+  Apply 2 Madness to a target enemy. Draw 1 card.
+  Upgrade: +2 Madness (4 total).
+
+CROP CIRCLE PATTERN
+  1 Cost — Skill — Common
+  Channel 1 random Entity. Draw 1 card.
+  Upgrade: Channel 2 random Entities.
+
+SIGNAL BOOSTER
+  1 Cost — Skill — Common
+  Channel 2 Cryptid Entities.
+  Upgrade: Also gain 1 orb slot.
+
+SCRAMBLED SIGNAL
+  0 Cost — Skill — Common
+  Exhaust a card from your hand. Gain 2 Paranormal.
+  Upgrade: Also draw 1 card.
+
+COSMIC DOWNLOAD
+  1 Cost — Skill — Common
+  Gain 3 Paranormal. If you Evoked an Entity this turn, draw 1 card.
+  Upgrade: Draw 2 cards on Evoke.
+
+BAD FEELING
+  0 Cost — Skill — Common — Exhaust
+  Gain 10 Paranormal. Exhaust.
+  Upgrade: Gain 15 Paranormal.
+
+HIDE IN PLAIN SIGHT
+  2 Cost — Skill — Uncommon
+  Gain 8 Block. Gain 1 Paranormal per Skill played this turn (including this one).
+  Upgrade: +4 Block (12 total).
+
+TRACTOR BEAM
+  2 Cost — Skill — Uncommon — All Enemies
+  Apply Abducted to ALL enemies. Channel 1 Gray Alien Entity.
+  Upgrade: Channel 2 Gray Alien Entities.
+
+ELDRITCH RITUAL
+  1 Cost — Skill — Uncommon — All Enemies
+  Apply 2 Madness to ALL enemies.
+  Upgrade: +2 Madness (4 total). Also draw 1 card.
+
+DIMENSIONAL SHIFT
+  0 Cost — Skill — Uncommon
+  Evoke your next Entity.
+  Upgrade: Also draw 1 card.
+
+COSMIC PRAYER
+  2 Cost — Skill — Uncommon
+  Evoke ALL channeled Entities, gaining 1 Paranormal per Evoke.
+  Upgrade: Also draw 1 card.
+
+SECRET MEETING
+  0 Cost — Skill — Rare — Exhaust
+  If you have a Gray Alien, Eldritch, AND Cryptid Entity channeled:
+  Gain 3 Energy and draw 3 cards. Exhaust.
+  Upgrade: Retain instead of Exhaust.
+
+ANCIENT TABLET
+  1 Cost — Skill — Rare
+  Your next Evoke triggers twice. (Applies AncientTabletPower — consumed on use.)
+  Upgrade: Cost becomes 0.
+
+LOCH NESS MONSTER
+  3 Cost — Skill — Rare — Exhaust
+  Spend ALL Paranormal. Gain Intangible 1 (or 2 if 8+ Paranormal spent). Exhaust.
+  Upgrade: Threshold reduced to 5 Paranormal for 2 Intangible.
+
+=========================================
+POWERS
+=========================================
+
+RADIO STATIC
+  1 Cost — Power — Common
+  Whenever you gain Paranormal from a card play, deal 2 damage to a random enemy.
+  Upgrade: +1 damage (3 total).
+
+BLACK-EYED CHILDREN
+  1 Cost — Power — Common
+  Whenever you Evoke an Entity, gain 1 Paranormal.
+  Upgrade: Gain 2 Paranormal per Evoke.
+
+OBSERVATION DRONE
+  2 Cost — Power — Uncommon
+  At the end of your turn, Channel 1 random Entity.
+  Upgrade: Also gain 1 Paranormal per turn.
+
+CONSPIRACY BOARD
+  1 Cost — Power — Uncommon
+  Every 3 Skills played in a turn, Channel 1 random Entity.
+  Upgrade: Also gain 1 Paranormal per trigger.
+
+MOTHMAN
+  2 Cost — Power — Uncommon
+  Whenever an enemy gains Madness, deal 3 damage to ALL enemies.
+  Upgrade: +2 damage (5 total).
+
+BIGFOOT
+  2 Cost — Power — Uncommon
+  At the end of each turn, deal damage to a random enemy equal to your Paranormal.
+  Upgrade: Cost becomes 0.
+
+PARANORMAL REACTOR
+  2 Cost — Power — Uncommon
+  At the start of your turn: if you have 6+ Paranormal, spend 3 and gain 1 Energy.
+  Upgrade: Also draw 1 card.
+
+GLITCH IN THE SKY
+  2 Cost — Power — Rare
+  Whenever you Evoke an Entity, gain 1 Energy at the start of your next turn.
+  Upgrade: Also draw 1 card at the start of your next turn.
+
+HIVE MIND
+  2 Cost — Power — Rare
+  All Paranormal gains are increased by +1.
+  Upgrade: +2 instead.
+
+INTERDIMENSIONAL TREATY
+  3 Cost — Power — Rare
+  Whenever you gain Paranormal, also gain that much Block.
+  Upgrade: Also gain 1 additional Block per trigger.
+
+THE MOTHERSHIP
+  4 Cost — Power — Rare
+  At end of each turn: Channel 1 Entity. If any enemies are Abducted,
+  deal 5 damage to ALL of them.
+  Upgrade: Channel 2 Entities per turn.
+
+ELDRITCH TRANSFORMATION
+  2 Cost — Power — Rare
+  Whenever you apply Madness to an enemy, gain 1 Temp Dexterity.
+  Upgrade: Also gain 1 Temp Strength. Cost becomes 0.
+
+=========================================
+CURSES
+=========================================
+
+MISSING MEMORIES
+  0 Cost — Curse
+  When drawn: gain 2 Weak.
+
+PARANOIA
+  0 Cost — Curse
+  When drawn: gain 1 Vulnerable.
+
+IMPLANTED PARASITE
+  0 Cost — Curse
+  When drawn: lose 3 Paranormal.
+
+WHISPERS
+  -2 Cost — Curse
+  Whenever you Evoke an Entity, lose 1 HP.
+
+NIGHT TERRORS
+  -2 Cost — Curse
+  At the end of your turn, lose 1 Paranormal.
+
+=========================================
+END OF REFERENCE
+=========================================

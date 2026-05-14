@@ -32,8 +32,8 @@ public abstract class CryptidPower : CustomPowerModel
     {
         switch (Random.Shared.Next(3))
         {
-            case 0: await OrbCmd.Channel<GrayAlienOrb>(ctx, player); break;
-            case 1: await OrbCmd.Channel<EldritchOrb>(ctx, player); break;
+            case 0: await OrbCmd.Channel<AlienOrb>(ctx, player); break;
+            case 1: await OrbCmd.Channel<GhostOrb>(ctx, player); break;
             default: await OrbCmd.Channel<CryptidOrb>(ctx, player); break;
         }
     }

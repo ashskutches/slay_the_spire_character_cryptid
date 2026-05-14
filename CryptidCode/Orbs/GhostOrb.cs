@@ -8,35 +8,29 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 
 namespace Cryptid.CryptidCode.Orbs;
 
-public class CryptidOrb : CryptidOrbModel
+public class GhostOrb : CryptidOrbModel
 {
     public override bool IncludeInRandomPool => true;
     public override string CustomIconPath => "power.png".PowerImagePath();
     public override string CustomSpritePath => "power.png".BigPowerImagePath();
     public override decimal PassiveVal => 1m;
-    public override decimal EvokeVal => 5m;
-    public override Color DarkenedColor => new Color(0.0f, 0.4f, 0.4f);
+    public override decimal EvokeVal => 1m;
+    public override Color DarkenedColor => new Color(0.9f, 0.9f, 1.0f);
 
     public override List<(string, string)> Localization => new OrbLoc(
-        "Cryptid",
-        "Passive: Apply 1 [debuff]Madness[/debuff] to ALL enemies.\nEvoke: Apply 5 [debuff]Madness[/debuff] to ALL enemies.",
-        "Passive: 1 Madness all. Evoke: 5 Madness all.",
+        "Ghost",
+        "Passive: Gain 1 [gold]Paranormal[/gold].\nEvoke: Gain 1 Energy.",
+        "Passive: 1 Paranormal. Evoke: 1 Energy.",
         []);
 
     public override async Task Passive(PlayerChoiceContext ctx, Creature target)
     {
-        var state = CombatState;
-        if (state == null) return;
-        foreach (var enemy in state.Enemies.ToList())
-            await PowerCmd.Apply<MadnessPower>(enemy, 1, Owner.Creature, null);
+        await PowerCmd.Apply<ParanormalPower>(Owner.Creature, 1, Owner.Creature, null);
     }
 
     public override async Task<IEnumerable<Creature>> Evoke(PlayerChoiceContext ctx)
     {
-        var state = CombatState;
-        if (state == null) return [];
-        foreach (var enemy in state.Enemies.ToList())
-            await PowerCmd.Apply<MadnessPower>(enemy, 5, Owner.Creature, null);
+        Owner.PlayerCombatState?.GainEnergy(1m);
         return [];
     }
 }
