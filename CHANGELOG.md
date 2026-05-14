@@ -1,5 +1,29 @@
 # The Cryptid — Changelog
 
+## v1.3.1 — Starting Deck & Card Rework
+
+Redesigned the starting deck and revised several card mechanics to match the v1.3 reference.
+
+### Starting deck
+- **Old:** Probe ×5, Static Blast ×2, Strange Sighting ×1, Hide Evidence ×1, Abduction Beam ×1
+- **New:** Probe ×4, Judgement ×4, Strange Sighting ×1, His Presence ×1
+
+### New cards
+- **Judgement** (Basic Attack) — Deal 5 damage; if enemy has Madness, deal 2 (5 upgraded) additional damage
+- **His Presence** (Basic Attack) — Deal 10 (15) damage and apply Madness to target (all enemies when upgraded)
+
+### Removed cards
+- **Static Blast** — replaced by Judgement
+- **Abduction Beam** — removed from card set
+
+### Changed cards
+- **Probe** — upgrade now draws 1 card (was +1 Paranormal)
+- **Strange Sighting** — completely redesigned: consume 5 Paranormal, gain a random Entity orb and 5 Block (was draw + Paranormal)
+- **Blackout** — upgrade now increases Weak (2→3) AND Paranormal (1→2); was Paranormal only
+- **Eldritch Ritual** — upgrade now also increases Madness (2→4) in addition to adding draw
+
+---
+
 ## v1.3.0 — Entity Overhaul
 
 Complete redesign around the Entity orb system. Replaced the three-Influence archetype

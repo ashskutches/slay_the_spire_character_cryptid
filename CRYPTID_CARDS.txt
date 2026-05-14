@@ -39,30 +39,26 @@ ENTITY ORBS (3 types, slot into orb slots)
 STARTING DECK (10 cards)
 =========================================
 
-PROBE × 5
+PROBE × 4
   0 Cost — Skill — Basic
-  Gain 1 Paranormal. Channel a Cryptid Entity.
-  Upgrade: Gain 2 Paranormal.
+  Gain 2 Paranormal.
+  Upgrade: Gain 2 Paranormal and Draw a card.
 
-STATIC BLAST × 2
+Judgement × 4
   1 Cost — Attack — Basic
-  Deal 6 damage. If the enemy is Abducted, deal 3 additional damage.
-  Upgrade: +3 damage (9 total).
+  Deal 5 damage. Deal an additional 2 Damage (second Attack) if the enemy has Madness.
+  Upgrade: Deal 3 additional Damage (Second Attack).
 
 STRANGE SIGHTING × 1
   1 Cost — Skill — Basic
-  Draw 1 card. Gain 1 Paranormal.
-  Upgrade: Draw 2 cards.
+  Consume 5 Paranormal. Gain a Random Orb (Eldritch, Cryptid, Gray Alien) and 5 Block.
 
-HIDE EVIDENCE × 1
-  1 Cost — Skill — Basic
-  Gain 6 Block. Exhaust a card from your hand.
-  Upgrade: +3 Block (9 total).
+His Presence × 1
+  2 Cost — Attack — Basic
+  Deal 10 damage. Apply Madness to that enemy.
+  Upgrade: Deal 15 Damage and Apply Madness to all enemies.
 
-ABDUCTION BEAM × 1
-  1 Cost — Skill — Basic
-  Apply Abducted to a target enemy. Channel a Gray Alien Entity.
-  Upgrade: Also apply 1 Weak.
+
 
 =========================================
 ATTACKS
@@ -93,6 +89,11 @@ ALIEN INVASION
 =========================================
 SKILLS
 =========================================
+
+HIDE EVIDENCE × 1
+  1 Cost — Skill — Basic
+  Gain 6 Block. Exhaust a card from your hand.
+  Upgrade: +3 Block (9 total).
 
 MEN IN BLACK
   1 Cost — Skill — Common

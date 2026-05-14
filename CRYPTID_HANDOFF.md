@@ -21,11 +21,10 @@ dotnet build
 | Starting relic | TinfoilSkullRelic |
 
 **Starting Deck (10 cards):**
-- Probe × 5
-- Static Blast × 2
+- Probe × 4
+- Judgement × 4
 - Strange Sighting × 1
-- Hide Evidence × 1
-- Abduction Beam × 1
+- His Presence × 1
 
 **Starting Relic — Tinfoil Skull:**
 Whenever you take damage from an enemy, gain 5 Paranormal. Enables immediate Paranormal generation in turn 1.
@@ -77,11 +76,11 @@ Three orb types. Channel with `OrbCmd.Channel<T>(ctx, player)`. Evoke via orb sl
 
 | Card | Cost | Effect | Upgrade |
 |------|------|--------|---------|
-| Probe | 0 | Gain 1 Paranormal. Channel Cryptid Entity | +1 Paranormal |
-| Static Blast | 1 | Deal 6 dmg. Abducted: +3 dmg | +3 dmg |
-| Strange Sighting | 1 | Draw 1 card. Gain 1 Paranormal | Draw 2 cards |
+| Probe | 0 | Gain 2 Paranormal | Also draw 1 card |
+| Judgement | 1 | Deal 5 dmg. Madness: deal 2 additional | Bonus hit → 5 dmg |
+| Strange Sighting | 1 | Consume 5 Paranormal. Gain random Entity orb + 5 Block | — |
+| His Presence | 2 | Deal 10 dmg. Apply Madness to target | +5 dmg, Madness → all enemies |
 | Hide Evidence | 1 | Gain 6 Block. Exhaust a card from hand | +3 Block |
-| Abduction Beam | 1 | Apply Abducted. Channel Gray Alien | +1 Weak |
 
 ### Common Attacks
 
