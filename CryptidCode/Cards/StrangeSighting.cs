@@ -14,6 +14,9 @@ public sealed class StrangeSighting : CryptidCard
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [];
 
+    protected override bool IsPlayable =>
+        (Owner?.Creature?.GetPower<ParanormalPower>()?.Amount ?? 0) >= 5;
+
     protected override async Task OnPlay(PlayerChoiceContext ctx, CardPlay play)
     {
         await CreatureCmd.TriggerAnim(Owner.Creature, "Cast", Owner.Character.CastAnimDelay);
