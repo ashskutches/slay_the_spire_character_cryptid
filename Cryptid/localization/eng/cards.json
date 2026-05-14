@@ -11,24 +11,6 @@
   "CRYPTID-STRANGE_SIGHTING.title": "Strange Sighting",
   "CRYPTID-STRANGE_SIGHTING.description": "Draw 1 card. Channel a random [gold]Entity[/gold] Orb. Upgraded: Channel 2 random [gold]Entity[/gold] Orbs instead.",
 
-  "CRYPTID-MEN_IN_BLACK.title": "Men in Black",
-  "CRYPTID-MEN_IN_BLACK.description": "Deal {Damage:diff()} damage. Apply {MadnessPower:diff()} [debuff]Madness[/debuff].",
-
-  "CRYPTID-FLASHLIGHT_SWEEP.title": "Flashlight Sweep",
-  "CRYPTID-FLASHLIGHT_SWEEP.description": "Deal {Damage:diff()} damage. Upgraded: costs 2 Energy.",
-
-  "CRYPTID-ALIEN_INVASION.title": "Alien Invasion",
-  "CRYPTID-ALIEN_INVASION.description": "Deal {Damage:diff()} damage per card in hand. Upgraded: costs 1 Energy.",
-
-  "CRYPTID-HIDE_EVIDENCE.title": "Hide Evidence",
-  "CRYPTID-HIDE_EVIDENCE.description": "Gain {Block:diff()} Block. Exhaust a card from your hand.",
-
-  "CRYPTID-BAD_FEELING.title": "Bad Feeling",
-  "CRYPTID-BAD_FEELING.description": "Gain {ParanormalPower:diff()} [gold]Paranormal[/gold]. Exhaust.",
-
-  "CRYPTID-CROP_CIRCLE_PATTERN.title": "Crop Circle Pattern",
-  "CRYPTID-CROP_CIRCLE_PATTERN.description": "Channel 1 [gold]Alien[/gold] Orb. Draw 2 cards. Upgraded: Draw 3 cards.",
-
   "CRYPTID-ALIEN_TECHNOLOGY.title": "Alien Technology",
   "CRYPTID-ALIEN_TECHNOLOGY.description": "Gain {VigorPower:diff()} [gold]Vigor[/gold]. Draw 1 card. Exhaust.",
 
